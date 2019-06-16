@@ -2,11 +2,7 @@
 
 
 
-prop::prop()
-{
-}
+prop::prop(){}
 
 
-prop::~prop()
-{
-}
+prop::~prop(){}

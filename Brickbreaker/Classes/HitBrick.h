@@ -58,7 +58,7 @@ public:
 
 
 
-	void updateShip(float dt);  // 更新船的平衡情况
+	void updateReadylong(float dt);  // 更新船的平衡情况
 
 
 
@@ -80,12 +80,6 @@ public:
 
 	bool onConcactBegin(PhysicsContact & contact);
 
-	bool onConcactBegin1(PhysicsContact & contact);
-
-
-
-
-
 	void preloadMusic();                   // 预加载音乐
 
 
@@ -98,7 +92,9 @@ public:
 
 
 
-
+	//道具使用函数
+	void Redfunc();
+	void Bluefunc();
 
 
 
@@ -113,10 +109,9 @@ public:
 	void exitCallback(Ref * pSender);
 
 
+	void returnMenu(Ref* pSengder);
 
-
-
-
+	void nextCallback(Ref * pSender) ;
 
 	// implement the "static create()" method manually
 
@@ -125,10 +120,7 @@ public:
 	CREATE_FUNC(HitBrick);
 
 
-
-
-
-
+	int _scorevalue;//分数
 
 private:
 
@@ -144,7 +136,7 @@ private:
 
 	Sprite* player;
 
-
+	Sprite *blackbar;
 
 	Sprite* ship;
 
@@ -153,37 +145,48 @@ private:
 	bool onBall;
 
 
-
+	//蓄力进度
+	Sprite* ReadyW;
+	Sprite* ReadyB;
+	float readylong;
 	Sprite* ball;
-
-
+	Label* ready;
+	Label* go;
 
 	// 固定关节
-
-
 
 	PhysicsJointPin * joint1;
 
 
-
+	//蓄力所用
 	int spHolded;
-
-
-
 	int spFactor;
 
 
 
-	enum Tag { SHIP, BALL, BOX, BOARD };
+	enum Tag { SHIP, BALL, BOX, BOARD ,REDBOOK, BLUEBOOK };
 
 
-	int _scorevalue;//分数
+
 	Label* _scoreLabel;
 
+	//目标分
+	int target_score;
 	
+
+	//道具BLUEBOOK
+	bool onBig;
+	float bigtime;
+	Sprite* bigplayer;
+
+	//排行榜
+	int First;
+	int Second;
+	int Third;
+	int Fourth;
+	int Fifth;
+
 };
-
-
 
 
 

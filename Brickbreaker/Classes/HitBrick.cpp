@@ -8,6 +8,14 @@
 
 #include "SimpleAudioEngine.h"
 
+#include "GameMenu.h"
+
+#include "mode_choose.h"
+
+#include "level2.h"
+
+#include "level3.h"
+
 
 
 #define database UserDefault::getInstance()
@@ -65,25 +73,75 @@ bool HitBrick::init() {
 
 	addChild(edgeSp);
 
+	//储存数据
+	if (database->getBoolForKey("bool1", false)) {
+		First = database->getIntegerForKey("FIRST_PLACE1");
+		Second = database->getIntegerForKey("SECOND_PLACE1");
+		Third = database->getIntegerForKey("THIRD_PLACE1");
+		Fourth = database->getIntegerForKey("FOURTH_PLACE1");
+		Fifth = database->getIntegerForKey("FIFTH_PLACE1");
+	}
+	else {
+		database->setBoolForKey("bool1", true);
+		database->setIntegerForKey("FIRST_PLACE1", 0);
+		database->setIntegerForKey("SECOND_PLACE1", 0);
+		database->setIntegerForKey("THIRD_PLACE1", 0);
+		database->setIntegerForKey("FOURTH_PLACE1", 0);
+		database->setIntegerForKey("FIFTH_PLACE1", 0);
+		database->flush();
+	}
 	//小球
 	auto box = Sprite::create("box.png");
 	int xbox = box->getContentSize().width; int ybox = box->getContentSize().height;
 
 	//分数
 	auto score_btn = Sprite::create("btn.png");
-	score_btn->setScale(0.5,0.5);
+	score_btn->setScale(0.7, 0.5);
 	score_btn->setAnchorPoint(Vec2(0,0.7));
 	score_btn->setPosition(Vec2(15, visibleSize.height ));	
 	this->addChild(score_btn,10);
 	_scoreLabel = Label::createWithSystemFont("积分：00", "fonts/arial.ttf", 32);
-	_scoreLabel->setPosition(80, visibleSize.height * 0.955);
+	_scoreLabel->setPosition(100, visibleSize.height * 0.955);
 	this->addChild(_scoreLabel,10);
 	_scorevalue = 0;
 
 
+	//关卡号码
+	auto level_btn = Sprite::create("btn.png");
+	level_btn->setScale(0.7, 0.5);
+	level_btn->setAnchorPoint(Vec2(0, 0.7));
+	level_btn->setPosition(Vec2(45 + score_btn->getContentSize().width, visibleSize.height));
+	this->addChild(level_btn, 10);
+	auto levelLabel = Label::create("Level: 1", "fonts/arial.ttf", 32);
+	levelLabel->setPosition(score_btn->getContentSize().width+115, visibleSize.height * 0.955);
+	this->addChild(levelLabel, 11);
+
+	//目标分数
+	target_score = 50;
+	auto target_btn = Sprite::create("btn.png");
+	target_btn->setScale(0.7, 0.5);
+	target_btn->setAnchorPoint(Vec2(0, 0.7));
+	target_btn->setPosition(Vec2(30 + 2 * score_btn->getContentSize().width, visibleSize.height));
+	this->addChild(target_btn, 10);
+	auto targetLabel = Label::create("Target: 00", "fonts/arial.ttf", 32);
+	targetLabel->setString(StringUtils::format("Target: %i", target_score));
+	targetLabel->setPosition(2 * score_btn->getContentSize().width + 130, visibleSize.height * 0.955);
+	this->addChild(targetLabel, 11);
+
+	//返回按钮
+	auto labelF = Label::create("Return", "fonts/STXINWEI.TTF", 30);
+	labelF->setColor(Color3B(2, 0, 0));
+	auto exitbtnF = MenuItemLabel::create(labelF, CC_CALLBACK_1(HitBrick::returnMenu, this));
+	auto exitF = Menu::create(exitbtnF, NULL);
+	exitF->setPosition(Vec2(visibleSize.width*0.9, visibleSize.height*0.955));
+	this->addChild(exitF, 12);
+
+	
+
+
 	preloadMusic(); // 预加载音效
 
-	addSprite();    // 添加背景和各种精灵
+   	addSprite();    // 添加背景和各种精灵
 
 	addListener();  // 添加监听器 
 
@@ -91,13 +149,25 @@ bool HitBrick::init() {
 
 	BrickGeneraetd();  // 生成砖块
 
+
+
 	schedule(schedule_selector(HitBrick::update), 0.01f, kRepeatForever, 0.1f);
+	//schedule(schedule_selector(HitBrick::updateReadylong), 1.0f, kRepeatForever, 0.1f);
 
 	onBall = true;
 
 	spHolded = -1;
 
 	spFactor = 0;
+
+	readylong = 0;
+
+	onBig = false;
+
+	bigtime = 0;
+
+
+	
 
 	return true;
 }
@@ -108,12 +178,11 @@ bool HitBrick::init() {
 
 void HitBrick::setJoint() {
 
-	Vec2 fixPoint = Vec2(ball->getAnchorPoint().x, ball->getAnchorPoint().y - 30);
+	Vec2 fixPoint = Vec2(ball->getAnchorPoint().x, ball->getAnchorPoint().y - 50);
 
 	joint1 = PhysicsJointPin::construct(ball->getPhysicsBody(), player->getPhysicsBody(), fixPoint, player->getAnchorPoint());
 
 	m_world->addJoint(joint1);
-
 }
 
 // 预加载音效
@@ -143,11 +212,38 @@ void HitBrick::addSprite() {
 
 	this->addChild(bgSprite, 0);
 
+	//add bar
+
+	blackbar = Sprite::create("blackbar.png");
+
+	blackbar->setScale(visibleSize.width / blackbar->getContentSize().width, 0.2);
+
+	blackbar->setPosition(Vec2(visibleSize.width*0.5, visibleSize.height - 50));
+
+	auto blbarbody = PhysicsBody::createBox(blackbar->getContentSize(), PhysicsMaterial(1000.0f, 1.0f, 10.0f));
+
+	blbarbody->setCategoryBitmask(0xFFFFFFFF);
+
+	blbarbody->setCollisionBitmask(0xFFFFFFFF);
+
+	blbarbody->setContactTestBitmask(0xFFFFFFFF);
+
+	blbarbody->setGravityEnable(false);
+
+	blbarbody->setTag(3);
+
+	blbarbody->setDynamic(false);
+
+	blackbar->setPhysicsBody(blbarbody);
+
+	//player->getPhysicsBody()->setRotationEnable(false);
+
+	this->addChild(blackbar, 2);
 	// add ship
 
 	ship = Sprite::create("ship.png");
 
-	ship->setScale(visibleSize.width / ship->getContentSize().width * 0.97, 1.4f);
+	ship->setScale(visibleSize.width / ship->getContentSize().width * 0.97, 1.0f);
 
 	ship->setPosition(visibleSize.width / 2, 0);
 
@@ -166,6 +262,8 @@ void HitBrick::addSprite() {
 	ship->setPhysicsBody(shipbody);
 
 	this->addChild(ship, 1);
+
+	
 
 	// add sun and cloud
 
@@ -191,13 +289,7 @@ void HitBrick::addSprite() {
 
 	this->addChild(cloudSprite2);
 
-
-
 }
-
-
-
-
 
 
 
@@ -239,7 +331,7 @@ void HitBrick::addPlayer() {
 	player = Sprite::create("bar.png");
 	int xpos = visibleSize.width / 2;
 
-	player->setScale(0.1f, 0.1f);
+	player->setScale(0.2f, 0.1f);
 
 	player->setPosition(Vec2(xpos, ship->getContentSize().height - player->getContentSize().height*0.1f));
 
@@ -294,8 +386,11 @@ void HitBrick::addPlayer() {
 
 // Todo
 
-//不让板在边界100像素以内
+//不让板在边界100像素以内以及蓄力
+
 void HitBrick::update(float dt) {
+
+	//不让板越过边界
 	if (player->getPosition().x < 100) {
 		player->setPosition(100, player->getPosition().y);
 		player->getPhysicsBody()->setVelocity(Vec2(0, 0));
@@ -305,16 +400,72 @@ void HitBrick::update(float dt) {
 		player->setPosition(visibleSize.width - 100, player->getPosition().y);
 		player->getPhysicsBody()->setVelocity(Vec2(0, 0));
 	}
-	if (spHolded == 1 && spFactor <= 30)
+
+	//蓄力及蓄力条的部分
+	if (spHolded == 1 && spFactor <= 30) {
 		spFactor++;
+	}
+	if (spHolded == 1) {
+  		readylong = spFactor * 0.03;
+		ReadyB->setScale(readylong, 0.9);
+	}
+	if (spFactor == 30) {
+		ready->removeFromParentAndCleanup(true);
+		go = Label::create("Go!", "STXINWEI", 60);
+		this->addChild(go, 12);
+	}
+
+
+	//BLUEBOOK部分
+	if (onBig && bigtime == 0) {
+		//道具所用板
+		bigplayer = Sprite::create("bar.png");
+		bigplayer->setScale(visibleSize.width / bigplayer->getContentSize().width, 0.1f);
+		bigplayer->setPosition(Vec2(visibleSize.width*0.5, ship->getContentSize().height - bigplayer->getContentSize().height*0.1f + 50));
+
+		// 设置板的刚体属性
+		// Todo
+		auto playerBody = PhysicsBody::createBox(bigplayer->getContentSize(), PhysicsMaterial(1000.0f, 1.0f, 10.0f));
+
+		playerBody->setCategoryBitmask(0xFFFFFFFF);
+
+		playerBody->setCollisionBitmask(0xFFFFFFFF);
+
+		playerBody->setContactTestBitmask(0xFFFFFFFF);
+
+		playerBody->setGravityEnable(false);
+
+		playerBody->setTag(Tag::BOARD);
+
+		playerBody->setDynamic(false);
+
+		bigplayer->setPhysicsBody(playerBody);
+
+		bigplayer->getPhysicsBody()->setRotationEnable(false);
+
+		this->addChild(bigplayer, 2);
+		bigtime++;
+	}
+	else if(onBig) {
+		bigtime++;
+		if (bigtime >= 300) {
+			bigtime += 0;
+			bigplayer->removeFromParentAndCleanup(true);
+			onBig = false;
+		}
+	}
+
+	//Vec2 velocity = ball->getPhysicsBody()->getVelocity();
+	//ball->getPhysicsBody()->setVelocity(velocity*(1 + _scorevalue * 0.2));
+
 }
 
 
 
-void HitBrick::updateShip(float dt)
-
+void HitBrick::updateReadylong(float dt)
 {
-
+	Vec2 velocity = ball->getPhysicsBody()->getVelocity();
+	ball->getPhysicsBody()->setVelocity(velocity*(1 + _scorevalue * 0.2));
 }
 
 // Todo
@@ -322,36 +473,97 @@ void HitBrick::updateShip(float dt)
 //添加砖块   
 
 void HitBrick::BrickGeneraetd() {
-	for (int i = 1; i < 4; i++) {
+	for (int i = 1; i < 5; i++) {
 		int cw = 30;
 		while (cw <= visibleSize.width) {
-			auto box = Sprite::create("box.png");
-			// 为砖块设置刚体属性
-			// Todo
 
-			box->setPosition(cw, visibleSize.height - box->getContentSize().height * (i + 1));
+			if (cw == 178 && i == 3) {
+				auto box = Sprite::create("redbook.png");
 
-			cw += box->getContentSize().width;
+				box->setPosition(cw, visibleSize.height - box->getContentSize().height * (i + 1));
 
-			auto boxBody = PhysicsBody::createCircle(box->getContentSize().height / 2, PhysicsMaterial(100.0f, 1.0f, 0.0f));
+				cw += box->getContentSize().width;
 
-			boxBody->setCategoryBitmask(0xFFFFFFFF);
+				auto boxBody = PhysicsBody::createCircle(box->getContentSize().height / 2, PhysicsMaterial(100.0f, 1.0f, 0.0f));
 
-			boxBody->setCollisionBitmask(0xFFFFFFFF);
+				boxBody->setCategoryBitmask(0xFFFFFFFF);
 
-			boxBody->setContactTestBitmask(0xFFFFFFFF);
+				boxBody->setCollisionBitmask(0xFFFFFFFF);
 
-			boxBody->setGravityEnable(false);
+				boxBody->setContactTestBitmask(0xFFFFFFFF);
 
-			boxBody->setTag(Tag::BOX);
+				boxBody->setGravityEnable(false);
 
-			boxBody->setDynamic(false);
+				boxBody->setTag(Tag::REDBOOK);
 
-			box->setPhysicsBody(boxBody);
+				boxBody->setDynamic(false);
 
-			box->getPhysicsBody()->setRotationEnable(false);
+				box->setPhysicsBody(boxBody);
 
-			addChild(box, 4);
+				box->getPhysicsBody()->setRotationEnable(false);
+
+				addChild(box, 4);
+			}
+
+			else if (cw == 1066 && i == 3) {
+
+				auto box = Sprite::create("bluebook.png");
+
+				box->setPosition(cw, visibleSize.height - box->getContentSize().height * (i + 1));
+
+				cw += box->getContentSize().width;
+
+				auto boxBody = PhysicsBody::createCircle(box->getContentSize().height / 2, PhysicsMaterial(100.0f, 1.0f, 0.0f));
+
+				boxBody->setCategoryBitmask(0xFFFFFFFF);
+
+				boxBody->setCollisionBitmask(0xFFFFFFFF);
+
+				boxBody->setContactTestBitmask(0xFFFFFFFF);
+
+				boxBody->setGravityEnable(false);
+
+				boxBody->setTag(Tag::BLUEBOOK);
+
+				boxBody->setDynamic(false);
+
+				box->setPhysicsBody(boxBody);
+
+				box->getPhysicsBody()->setRotationEnable(false);
+
+				addChild(box, 4);
+			}
+			
+
+			else {
+				auto box = Sprite::create("box.png");
+				// 为砖块设置刚体属性
+				// Todo
+
+				box->setPosition(cw, visibleSize.height - box->getContentSize().height * (i + 1));
+
+				cw += box->getContentSize().width;
+
+				auto boxBody = PhysicsBody::createCircle(box->getContentSize().height / 2, PhysicsMaterial(100.0f, 1.0f, 0.0f));
+
+				boxBody->setCategoryBitmask(0xFFFFFFFF);
+
+				boxBody->setCollisionBitmask(0xFFFFFFFF);
+
+				boxBody->setContactTestBitmask(0xFFFFFFFF);
+
+				boxBody->setGravityEnable(false);
+
+				boxBody->setTag(Tag::BOX);
+
+				boxBody->setDynamic(false);
+
+				box->setPhysicsBody(boxBody);
+
+				box->getPhysicsBody()->setRotationEnable(false);
+
+				addChild(box, 4);
+			}
 		}
 	}
 }
@@ -384,8 +596,22 @@ void HitBrick::onKeyPressed(EventKeyboard::KeyCode code, Event* event) {
 		break;
 
 	case cocos2d::EventKeyboard::KeyCode::KEY_SPACE: // 开始蓄力
-		if (spHolded == -1)
+		if (spHolded == -1) {
 			spHolded = 1;
+			ready = Label::create("Ready!", "STXINWEI", 60);
+			ready->setPosition(Vec2(visibleSize.width*0.5, visibleSize.height*0.5 + 150));
+			this->addChild(ready, 12);
+
+			//蓄力进度条
+			ReadyW = Sprite::create("whitebar.png");
+			ReadyB = Sprite::create("blackbar.png");
+			ReadyB->setAnchorPoint(Vec2(0, 0.5));
+			//schedule(schedule_selector(HitBrick::updateReadylong), 0.01f);
+			ReadyW->setPosition(Vec2(visibleSize.width*0.5, visibleSize.height*0.5));
+			ReadyB->setPosition(Vec2(visibleSize.width*0.5 - ReadyB->getContentSize().width*0.5+10, visibleSize.height*0.5));
+			this->addChild(ReadyW,88);
+			this->addChild(ReadyB,90);
+		}
 		break;
 	default:
 		break;
@@ -406,8 +632,11 @@ void HitBrick::onKeyReleased(EventKeyboard::KeyCode code, Event* event) {
 	case cocos2d::EventKeyboard::KeyCode::KEY_SPACE:   // 蓄力结束，小球发射
 		if (spHolded == 1) {
 			spHolded = 0;
+			//go->removeFromParentAndCleanup(true);
+			ReadyW->removeFromParentAndCleanup(true);
+			ReadyB->removeFromParentAndCleanup(true);
 			m_world->removeJoint(joint1);
-			ball->getPhysicsBody()->setVelocity(Vec2(0, spFactor * 30));
+			ball->getPhysicsBody()->setVelocity(Vec2(0, spFactor * 20));
 		}
 		break;
 	default:
@@ -457,6 +686,65 @@ bool HitBrick::onConcactBegin(PhysicsContact & contact) {
 		ball->runAction(Sequence::create(rotate1, rotate2, NULL));
 	}
 
+	else if (c1->getTag() == Tag::REDBOOK && c2->getTag() == Tag::BALL) {
+		//下雨
+		rain->setPosition(s1->getPosition());
+		addChild(rain);
+		//星光
+		galaxy->setPosition(s1->getPosition());
+		galaxy->setDuration(1.0f);
+		addChild(galaxy);
+		s1->removeFromParentAndCleanup(true);
+		//道具效果
+		HitBrick::Redfunc();
+		ball->runAction(Sequence::create(rotate1, rotate2, NULL));
+	}
+
+	else if (c2->getTag() == Tag::REDBOOK && c1->getTag() == Tag::BALL) {
+		rain->setPosition(s2->getPosition());
+		addChild(rain);
+
+		galaxy->setPosition(s2->getPosition());
+		galaxy->setDuration(1.0f);
+		addChild(galaxy);
+
+		//道具效果
+		HitBrick::Redfunc();
+
+		s2->removeFromParentAndCleanup(true);
+		ball->runAction(Sequence::create(rotate1, rotate2, NULL));
+	}
+
+
+	else if (c1->getTag() == Tag::BLUEBOOK && c2->getTag() == Tag::BALL) {
+		//下雨
+		rain->setPosition(s1->getPosition());
+		addChild(rain);
+		//星光
+		galaxy->setPosition(s1->getPosition());
+		galaxy->setDuration(1.0f);
+		addChild(galaxy);
+		s1->removeFromParentAndCleanup(true);
+		//道具效果
+		HitBrick::Bluefunc();
+		ball->runAction(Sequence::create(rotate1, rotate2, NULL));
+	}
+
+	else if (c2->getTag() == Tag::BLUEBOOK && c1->getTag() == Tag::BALL) {
+		rain->setPosition(s2->getPosition());
+		addChild(rain);
+
+		galaxy->setPosition(s2->getPosition());
+		galaxy->setDuration(1.0f);
+		addChild(galaxy);
+
+		//道具效果
+		HitBrick::Bluefunc();
+
+		s2->removeFromParentAndCleanup(true);
+		ball->runAction(Sequence::create(rotate1, rotate2, NULL));
+	}
+
 	else if (c1->getTag() == Tag::SHIP && c2->getTag() == Tag::BALL ||
 		c2->getTag() == Tag::SHIP && c1->getTag() == Tag::BALL) {
 		GameOver();
@@ -468,6 +756,38 @@ bool HitBrick::onConcactBegin(PhysicsContact & contact) {
 
 
 void HitBrick::GameOver() {
+
+	//排行榜
+	if (_scorevalue > Fifth&&_scorevalue <= Fourth) {
+		database->setIntegerForKey("FIFTH_PLACE1", _scorevalue);
+		database->flush();
+	}
+	else if (_scorevalue > Fourth&&_scorevalue <= Third) {
+		database->setIntegerForKey("FIFTH_PLACE1", Fourth);
+		database->setIntegerForKey("FOURTH_PLACE1", _scorevalue);
+		database->flush();
+	}
+	else if (_scorevalue > Third&&_scorevalue <= Second) {
+		database->setIntegerForKey("FIFTH_PLACE1", Fourth);
+		database->setIntegerForKey("FOURTH_PLACE1", Third);
+		database->setIntegerForKey("THIRD_PLACE1", _scorevalue);
+		database->flush();
+	}
+	else if (_scorevalue > Second&&_scorevalue <= First) {
+		database->setIntegerForKey("FIFTH_PLACE1", Fourth);
+		database->setIntegerForKey("FOURTH_PLACE1", Third);
+		database->setIntegerForKey("THIRD_PLACE1", Second);
+		database->setIntegerForKey("SECOND_PLACE1", _scorevalue);
+		database->flush();
+	}
+	else if (_scorevalue > First) {
+		database->setIntegerForKey("FIFTH_PLACE1", Fourth);
+		database->setIntegerForKey("FOURTH_PLACE1", Third);
+		database->setIntegerForKey("THIRD_PLACE1", Second);
+		database->setIntegerForKey("SECOND_PLACE1", First);
+		database->setIntegerForKey("FIRST_PLACE1", _scorevalue);
+		database->flush();
+	}
 
 	_eventDispatcher->removeAllEventListeners();
 
@@ -484,37 +804,94 @@ void HitBrick::GameOver() {
 	GO_bg->setPosition(Vec2(visibleSize.width / 2, visibleSize.height / 2 - 50));
 	this->addChild(GO_bg,10);
 
-	auto label1 = LabelTTF::create("Game Over~", "STXINWEI", 60);
+	if (_scorevalue < target_score) {
+		auto label1 = LabelTTF::create("Game Over~", "STXINWEI", 60);
 
-	label1->setColor(Color3B(2, 0, 0));
+		label1->setColor(Color3B(2, 0, 0));
 
-	label1->setPosition(visibleSize.width / 2, visibleSize.height / 2);
+		label1->setPosition(visibleSize.width / 2, visibleSize.height / 2);
 
-	this->addChild(label1,11);
+		this->addChild(label1, 11); 
+		
+		auto label2 = Label::createWithTTF("重玩", "fonts/STXINWEI.TTF", 40);
 
-	auto label2 = Label::createWithTTF("重玩", "fonts/STXINWEI.TTF", 40);
+		label2->setColor(Color3B(2, 0, 0));
 
-	label2->setColor(Color3B(2, 0, 0));
+		auto replayBtn = MenuItemLabel::create(label2, CC_CALLBACK_1(HitBrick::replayCallback, this));
 
-	auto replayBtn = MenuItemLabel::create(label2, CC_CALLBACK_1(HitBrick::replayCallback, this));
+		Menu* replay = Menu::create(replayBtn, NULL);
 
-	Menu* replay = Menu::create(replayBtn, NULL);
+		replay->setPosition(visibleSize.width / 2 - 90, visibleSize.height / 2 - 100);
 
-	replay->setPosition(visibleSize.width / 2 - 90, visibleSize.height / 2 - 100);
+		this->addChild(replay, 11);
 
-	this->addChild(replay,11);
+		auto label3 = Label::createWithTTF("退出", "fonts/STXINWEI.TTF", 40);
 
-	auto label3 = Label::createWithTTF("退出", "fonts/STXINWEI.TTF", 40);
+		label3->setColor(Color3B(2, 0, 0));
 
-	label3->setColor(Color3B(2, 0, 0));
+		auto exitBtn = MenuItemLabel::create(label3, CC_CALLBACK_1(HitBrick::exitCallback, this));
 
-	auto exitBtn = MenuItemLabel::create(label3, CC_CALLBACK_1(HitBrick::exitCallback, this));
+		Menu* exit = Menu::create(exitBtn, NULL);
 
-	Menu* exit = Menu::create(exitBtn, NULL);
+		exit->setPosition(visibleSize.width / 2 + 90, visibleSize.height / 2 - 100);
 
-	exit->setPosition(visibleSize.width / 2 + 90, visibleSize.height / 2 - 100);
+		this->addChild(exit, 11);
+	}
+	else if (_scorevalue >= target_score) {
+		
+		auto label1 = LabelTTF::create("Congratulations!", "STXINWEI", 60);
 
-	this->addChild(exit,11);
+		label1->setColor(Color3B(2, 0, 0));
+
+		label1->setPosition(visibleSize.width / 2, visibleSize.height / 2);
+
+		this->addChild(label1, 11);
+
+		auto label2 = Label::createWithTTF("重玩", "fonts/STXINWEI.TTF", 40);
+
+		label2->setColor(Color3B(2, 0, 0));
+
+		auto replayBtn = MenuItemLabel::create(label2, CC_CALLBACK_1(HitBrick::replayCallback, this));
+
+		Menu* replay = Menu::create(replayBtn, NULL);
+
+		replay->setPosition(visibleSize.width / 2 - 120, visibleSize.height / 2 - 100);
+
+		this->addChild(replay, 11);
+
+
+		//下一关按钮
+		auto label4 = Label::createWithTTF("下一关", "fonts/STXINWEI.TTF", 40);
+		label4->setColor(Color3B(2, 0, 0));
+		auto nextBtn = MenuItemLabel::create(label4, CC_CALLBACK_1(HitBrick::nextCallback, this));
+		Menu* next = Menu::create(nextBtn, NULL);
+		next->setPosition(visibleSize.width / 2 , visibleSize.height / 2 - 100);
+		this->addChild(next, 11);
+
+		//退出按钮
+		auto label3 = Label::createWithTTF("退出", "fonts/STXINWEI.TTF", 40);
+
+		label3->setColor(Color3B(2, 0, 0));
+
+		auto exitBtn = MenuItemLabel::create(label3, CC_CALLBACK_1(HitBrick::exitCallback, this));
+
+		Menu* exit = Menu::create(exitBtn, NULL);
+
+		exit->setPosition(visibleSize.width / 2 + 120, visibleSize.height / 2 - 100);
+
+		this->addChild(exit, 11);
+	}
+
+	
+
+	//返回按钮
+	auto labelS = Label::create("Return", "fonts/STXINWEI.TTF", 30);
+	labelS->setColor(Color3B(2, 0, 0));
+	auto exitbtnS = MenuItemLabel::create(labelS, CC_CALLBACK_1(HitBrick::returnMenu, this));
+	Menu* exitS = Menu::create(exitbtnS, NULL);
+	exitS->setPosition(Vec2(visibleSize.width*0.9, visibleSize.height*0.955));
+	this->addChild(exitS, 12);
+	
 }
 
 
@@ -531,6 +908,17 @@ void HitBrick::replayCallback(Ref * pSender) {
 	Director::getInstance()->replaceScene(HitBrick::createScene());
 }
 
+
+//返回前一场景
+void HitBrick::returnMenu(Ref* pSender) {
+	Director::getInstance()->replaceScene(mode_choose::createScene());
+}
+
+
+void HitBrick::nextCallback(Ref * pSender) {
+	Director::getInstance()->pushScene(level2::createScene());
+}
+
 // 退出
 void HitBrick::exitCallback(Ref * pSender) {
 	Director::getInstance()->end();
@@ -538,4 +926,16 @@ void HitBrick::exitCallback(Ref * pSender) {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
 	exit(0);
 #endif
+}
+
+
+
+void HitBrick::Redfunc() {
+	Vec2 velocity = ball->getPhysicsBody()->getVelocity();
+	ball->getPhysicsBody()->setVelocity(0.75*velocity);
+}
+
+
+void HitBrick::Bluefunc() {
+	onBig = true;
 }

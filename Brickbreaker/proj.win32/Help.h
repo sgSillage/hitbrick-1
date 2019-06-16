@@ -18,5 +18,7 @@ public:
 
 private:
 	Sprite* background;
+
+	Label* label;
 };
 

@@ -1,9 +1,9 @@
 #include "GameMenu.h"
-#include "HitBrick.h"
-#include "cocos2d.h"
-#include "set1.h"
-#include "Help.h"
 
+#include "cocos2d.h"
+#include "Help.h"
+#include "mode_choose.h"
+#include "list.h"
 
 
 Scene* GameMenu::createScene()
@@ -50,7 +50,7 @@ bool GameMenu::init()
 	auto  set_btn = Sprite::create("btn.png");
 	set_btn->setPosition(Vec2(VisibleSize.width / 2, VisibleSize.height*0.5));
 	this->addChild(set_btn);
-	auto label2 = Label::createWithSystemFont("Game Setting", "fonts/STXINWEI.TTF", 30);
+	auto label2 = Label::createWithSystemFont("Ranking List", "fonts/STXINWEI.TTF", 30);
 	label2->setColor(Color3B(2, 0, 0));
 	auto setbtn = MenuItemLabel::create(label2, CC_CALLBACK_1(GameMenu::EnterSet, this));
 	auto set = Menu::create(setbtn, NULL);
@@ -75,7 +75,7 @@ bool GameMenu::init()
 //转移到游戏场景
 void GameMenu::EnterHitBrick(Ref *pSender)
 {
-	Director::getInstance()->pushScene(HitBrick::createScene());
+	Director::getInstance()->pushScene(mode_choose::createScene());
 }
 
 //转移到游戏设置场景

@@ -36,6 +36,15 @@ bool Help::init()
 
 
 
+
+	//ÍË³ö°´Å¥
+	auto label = Label::create("Return", "fonts/STXINWEI.TTF", 40);
+	label->setColor(Color3B(2, 0, 0));
+	auto exitbtn = MenuItemLabel::create(label, CC_CALLBACK_1(Help::exitHelp, this));
+	auto exit = Menu::create(exitbtn, NULL);
+	exit->setPosition(Vec2(VisibleSize.width*0.9, VisibleSize.height*0.1));
+	this->addChild(exit);
+
 	return true;
 }
 

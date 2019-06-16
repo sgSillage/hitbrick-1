@@ -20,7 +20,6 @@
     </ClCompile>
     <ClCompile Include="preload.cpp" />
     <ClCompile Include="Help.cpp" />
-    <ClCompile Include="set1.cpp" />
     <ClCompile Include="GameMenu.cpp">
       <Filter>src</Filter>
     </ClCompile>
@@ -28,6 +27,11 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="prop.cpp" />
+    <ClCompile Include="HitBrick_Double.cpp" />
+    <ClCompile Include="mode_choose.cpp" />
+    <ClCompile Include="list.cpp" />
+    <ClCompile Include="level2.cpp" />
+    <ClCompile Include="level3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -38,7 +42,6 @@
     </ClInclude>
     <ClInclude Include="preload.h" />
     <ClInclude Include="Help.h" />
-    <ClInclude Include="set1.h" />
     <ClInclude Include="GameMenu.h">
       <Filter>src</Filter>
     </ClInclude>
@@ -46,6 +49,11 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="prop.h" />
+    <ClInclude Include="HitBrick_Double.h" />
+    <ClInclude Include="mode_choose.h" />
+    <ClInclude Include="list.h" />
+    <ClInclude Include="level2.h" />
+    <ClInclude Include="level3.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="game.rc">

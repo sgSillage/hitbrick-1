@@ -167,49 +167,49 @@
   AssetsManager.cpp
   AssetsManagerEx.cpp
   CCEventAssetsManagerEx.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\external\unzip\unzip.h(47): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\..\extensions\assets-manager\AssetsManager.cpp)
-  d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\platform\win32\ccplatformdefine-win32.h(40): note: 参见“CC_DLL”的前一个定义 (编译源文件 ..\..\extensions\assets-manager\AssetsManager.cpp)
   CCEventListenerAssetsManagerEx.cpp
   Manifest.cpp
   CCPhysicsDebugNode.cpp
   CCPhysicsSprite.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\external\unzip\unzip.h(47): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\..\extensions\assets-manager\AssetsManager.cpp)
+  d:\hitbrick-1\brickbreaker\cocos2d\cocos\platform\win32\ccplatformdefine-win32.h(40): note: 参见“CC_DLL”的前一个定义 (编译源文件 ..\..\extensions\assets-manager\AssetsManager.cpp)
   ConvertUTF.c
   ConvertUTFWrapper.cpp
   clipper.cpp
   edtaa3func.cpp
   idl_gen_cpp.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\external\unzip\unzip.h(47): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\..\extensions\assets-manager\AssetsManagerEx.cpp)
+  d:\hitbrick-1\brickbreaker\cocos2d\cocos\platform\win32\ccplatformdefine-win32.h(40): note: 参见“CC_DLL”的前一个定义 (编译源文件 ..\..\extensions\assets-manager\AssetsManagerEx.cpp)
   idl_gen_fbs.cpp
   idl_gen_general.cpp
   idl_gen_go.cpp
   idl_gen_text.cpp
   idl_parser.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\external\unzip\unzip.h(47): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\..\extensions\assets-manager\AssetsManagerEx.cpp)
-  d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\platform\win32\ccplatformdefine-win32.h(40): note: 参见“CC_DLL”的前一个定义 (编译源文件 ..\..\extensions\assets-manager\AssetsManagerEx.cpp)
   md5.c
+d:\hitbrick-1\brickbreaker\cocos2d\extensions\assets-manager\assetsmanagerex.cpp(1180): warning C4305: “+=”: 从“double”到“float”截断
   shapes.cc
   advancing_front.cc
   cdt.cc
   sweep.cc
   sweep_context.cc
   tinyxml2.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\extensions\assets-manager\assetsmanagerex.cpp(1180): warning C4305: “+=”: 从“double”到“float”截断
   ioapi.cpp
   ioapi_mem.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\external\unzip\ioapi.h(25): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\..\external\unzip\ioapi.cpp)
-  d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\platform\win32\ccplatformdefine-win32.h(40): note: 参见“CC_DLL”的前一个定义 (编译源文件 ..\..\external\unzip\ioapi.cpp)
   unzip.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\external\unzip\ioapi.h(25): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\..\external\unzip\ioapi_mem.cpp)
-  d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\platform\win32\ccplatformdefine-win32.h(40): note: 参见“CC_DLL”的前一个定义 (编译源文件 ..\..\external\unzip\ioapi_mem.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\external\unzip\ioapi.h(25): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\..\external\unzip\ioapi.cpp)
+  d:\hitbrick-1\brickbreaker\cocos2d\cocos\platform\win32\ccplatformdefine-win32.h(40): note: 参见“CC_DLL”的前一个定义 (编译源文件 ..\..\external\unzip\ioapi.cpp)
   xxhash.c
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\external\unzip\unzip.h(47): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\..\external\unzip\unzip.cpp)
-  d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\platform\win32\ccplatformdefine-win32.h(40): note: 参见“CC_DLL”的前一个定义 (编译源文件 ..\..\external\unzip\unzip.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\external\unzip\ioapi.h(25): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\..\external\unzip\ioapi_mem.cpp)
+  d:\hitbrick-1\brickbreaker\cocos2d\cocos\platform\win32\ccplatformdefine-win32.h(40): note: 参见“CC_DLL”的前一个定义 (编译源文件 ..\..\external\unzip\ioapi_mem.cpp)
   CCAABB.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\external\unzip\unzip.h(47): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\..\external\unzip\unzip.cpp)
+  d:\hitbrick-1\brickbreaker\cocos2d\cocos\platform\win32\ccplatformdefine-win32.h(40): note: 参见“CC_DLL”的前一个定义 (编译源文件 ..\..\external\unzip\unzip.cpp)
   CCAnimate3D.cpp
   CCAnimation3D.cpp
   CCAttachNode.cpp
   CCBillBoard.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\external\xxhash\xxhash.c(312): warning C4804: “/”: 在操作中使用类型“bool”不安全
   CCBundle3D.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\external\xxhash\xxhash.c(312): warning C4804: “/”: 在操作中使用类型“bool”不安全
   CCBundleReader.cpp
   CCFrustum.cpp
   CCMesh.cpp
@@ -244,12 +244,12 @@ d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\external\xxhash\xxhash.c(312): w
   CCData.cpp
   CCDataVisitor.cpp
   CCDirector.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\base\ccdirector.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
   CCEvent.cpp
   CCEventAcceleration.cpp
   CCEventController.cpp
   CCEventCustom.cpp
   CCEventDispatcher.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\base\ccdirector.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
   CCEventFocus.cpp
   CCEventKeyboard.cpp
   CCEventListener.cpp
@@ -279,6 +279,8 @@ d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\base\ccdirector.cpp : warn
   ZipUtils.cpp
   CCAllocatorDiagnostics.cpp
   CCAllocatorGlobal.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\external\unzip\unzip.h(47): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\base\ZipUtils.cpp)
+  d:\hitbrick-1\brickbreaker\cocos2d\cocos\platform\win32\ccplatformdefine-win32.h(40): note: 参见“CC_DLL”的前一个定义 (编译源文件 ..\base\ZipUtils.cpp)
   CCAllocatorGlobalNewDelete.cpp
   atitc.cpp
   base64.cpp
@@ -289,8 +291,6 @@ d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\base\ccdirector.cpp : warn
   ccUTF8.cpp
   ccUtils.cpp
   etc1.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\external\unzip\unzip.h(47): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\base\ZipUtils.cpp)
-  d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\platform\win32\ccplatformdefine-win32.h(40): note: 参见“CC_DLL”的前一个定义 (编译源文件 ..\base\ZipUtils.cpp)
   pvr.cpp
   s3tc.cpp
   cocos2d.cpp
@@ -327,20 +327,20 @@ d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\external\unzip\unzip.h(47): warn
   CCActionTimelineNode.cpp
   CCBoneNode.cpp
   CCFrame.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
   CCSkeletonNode.cpp
   CCSkinNode.cpp
   CCTimeLine.cpp
   CSLoader.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
   CCActionFrame.cpp
   CCActionFrameEasing.cpp
   CCActionManagerEx.cpp
@@ -362,22 +362,22 @@ d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\
   CCDatas.cpp
   CCDecorativeDisplay.cpp
   CCDisplayFactory.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
   CCDisplayManager.cpp
   CCInputDelegate.cpp
   CCProcessBase.cpp
   CCSGUIReader.cpp
   CCSSceneReader.cpp
   CCSkin.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
   CCSpriteFrameCacheHelper.cpp
   CCTransformHelp.cpp
   CCTween.cpp
@@ -393,371 +393,371 @@ d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\
   WidgetCallBackHandlerProtocol.cpp
   ArmatureNodeReader.cpp
   ButtonReader.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
   CheckBoxReader.cpp
   ComAudioReader.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
   GameMapReader.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
   GameNode3DReader.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
   ImageViewReader.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
   LayoutReader.cpp
   Light3DReader.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
   ListViewReader.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
   LoadingBarReader.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
   Node3DReader.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
   NodeReaderDefine.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
   NodeReaderProtocol.cpp
   NodeReader.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
   PageViewReader.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
   Particle3DReader.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
   ParticleReader.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
   ProjectNodeReader.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
   ScrollViewReader.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
   SingleNodeReader.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
   BoneNodeReader.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
   SkeletonNodeReader.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
   SliderReader.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
   Sprite3DReader.cpp
   SpriteReader.cpp
   TabControlReader.cpp
   TextAtlasReader.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
   TextBMFontReader.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
   TextFieldReader.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
   TextReader.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
   UserCameraReader.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
   WidgetReader.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
   CCAffineTransform.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
   CCGeometry.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
   CCVertex.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
   Mat4.cpp
   MathUtil.cpp
   Quaternion.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
   TransformUtils.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
   Vec2.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
   Vec3.cpp
   Vec4.cpp
   CCNavMesh.cpp
   CCNavMeshAgent.cpp
   CCNavMeshDebugDraw.cpp
   CCNavMeshObstacle.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1546): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\cocostudio\csparsebinary_generated.h(1593): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
   CCNavMeshUtils.cpp
   CCDownloader-curl.cpp
   CCDownloader.cpp
@@ -780,10 +780,10 @@ d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\cocostudio\
   CCPhysicsWorld.cpp
   CCFileUtils.cpp
   CCGLView.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\external\unzip\unzip.h(47): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\platform\CCFileUtils.cpp)
-  d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\platform\win32\ccplatformdefine-win32.h(40): note: 参见“CC_DLL”的前一个定义 (编译源文件 ..\platform\CCFileUtils.cpp)
   CCImage.cpp
   CCSAXParser.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\external\unzip\unzip.h(47): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\platform\CCFileUtils.cpp)
+  d:\hitbrick-1\brickbreaker\cocos2d\cocos\platform\win32\ccplatformdefine-win32.h(40): note: 参见“CC_DLL”的前一个定义 (编译源文件 ..\platform\CCFileUtils.cpp)
   CCThread.cpp
   CCGLViewImpl-desktop.cpp
   CCApplication-win32.cpp
@@ -801,15 +801,15 @@ d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\external\unzip\unzip.h(47): warn
   CCGLProgramStateCache.cpp
   CCGroupCommand.cpp
   CCMaterial.cpp
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\renderer\ccglprogramstate.cpp(920): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
+  d:\hitbrick-1\brickbreaker\cocos2d\cocos\renderer\ccglprogramstate.cpp(174): note: 参见“cocos2d::UniformValue::setTexture”的声明
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\renderer\ccglprogramstate.cpp(924): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
+  d:\hitbrick-1\brickbreaker\cocos2d\cocos\renderer\ccglprogramstate.cpp(174): note: 参见“cocos2d::UniformValue::setTexture”的声明
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\renderer\ccglprogramstate.cpp(941): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
+  d:\hitbrick-1\brickbreaker\cocos2d\cocos\renderer\ccglprogramstate.cpp(174): note: 参见“cocos2d::UniformValue::setTexture”的声明
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\renderer\ccglprogramstate.cpp(945): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
+  d:\hitbrick-1\brickbreaker\cocos2d\cocos\renderer\ccglprogramstate.cpp(174): note: 参见“cocos2d::UniformValue::setTexture”的声明
   CCMeshCommand.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\renderer\ccglprogramstate.cpp(920): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
-  d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\renderer\ccglprogramstate.cpp(174): note: 参见“cocos2d::UniformValue::setTexture”的声明
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\renderer\ccglprogramstate.cpp(924): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
-  d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\renderer\ccglprogramstate.cpp(174): note: 参见“cocos2d::UniformValue::setTexture”的声明
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\renderer\ccglprogramstate.cpp(941): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
-  d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\renderer\ccglprogramstate.cpp(174): note: 参见“cocos2d::UniformValue::setTexture”的声明
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\renderer\ccglprogramstate.cpp(945): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
-  d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\renderer\ccglprogramstate.cpp(174): note: 参见“cocos2d::UniformValue::setTexture”的声明
   CCPass.cpp
   CCPrimitive.cpp
   CCPrimitiveCommand.cpp
@@ -958,137 +958,137 @@ d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\renderer\ccglprogramstate.
   复制了 4 个文件
   复制了 2 个文件
 libtiff.lib(tif_win32.obj) : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/INCREMENTAL:NO”规范)
-    正在创建库 D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libcocos2d.lib 和对象 D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libcocos2d.exp
+    正在创建库 D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libcocos2d.lib 和对象 D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libcocos2d.exp
 LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
 LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
-libtiff.lib(tif_aux.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_aux.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_close.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_close.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_codec.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_codec.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_color.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_color.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_compress.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_compress.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_dir.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_dir.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_dirinfo.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_dirinfo.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_dirread.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_dirread.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_dirwrite.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_dirwrite.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_dumpmode.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_dumpmode.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_error.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_error.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_fax3.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_fax3.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_fax3sm.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_fax3sm.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_getimage.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_getimage.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_flush.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_flush.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_luv.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_luv.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_lzw.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_lzw.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_next.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_next.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_open.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_open.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_packbits.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_packbits.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_predict.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_predict.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_read.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_read.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_swab.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_swab.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_strip.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_strip.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_thunder.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_thunder.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_tile.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_tile.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_warning.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_warning.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_write.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_write.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libtiff.lib(tif_win32.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_win32.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(chipmunk.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(chipmunk.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpArbiter.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpArbiter.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpArray.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpArray.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpBBTree.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpBBTree.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpBody.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpBody.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpCollision.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpCollision.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpConstraint.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpConstraint.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpDampedRotarySpring.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpDampedRotarySpring.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpDampedSpring.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpDampedSpring.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpGearJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpGearJoint.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpGrooveJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpGrooveJoint.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpHashSet.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpHashSet.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpPinJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpPinJoint.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpPivotJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpPivotJoint.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpPolyShape.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpPolyShape.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpRatchetJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpRatchetJoint.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpRobust.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpRobust.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpRotaryLimitJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpRotaryLimitJoint.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpShape.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpShape.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpSimpleMotor.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpSimpleMotor.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpSlideJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpSlideJoint.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpSpace.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpSpace.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpSpaceComponent.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpSpaceComponent.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpSpaceDebug.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpSpaceDebug.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpSpaceHash.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpSpaceHash.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpSpaceQuery.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpSpaceQuery.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpSpaceStep.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpSpaceStep.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpSpatialIndex.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpSpatialIndex.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCollisionAlgorithm.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btDbvt.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btDbvt.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btDbvtBroadphase.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btDbvtBroadphase.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btDispatcher.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btDispatcher.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btOverlappingPairCache.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btOverlappingPairCache.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btQuantizedBvh.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btQuantizedBvh.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btActivatingCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btActivatingCollisionAlgorithm.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btBoxBoxCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btBoxBoxCollisionAlgorithm.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btBoxBoxDetector.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btBoxBoxDetector.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btCollisionDispatcher.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCollisionDispatcher.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btCollisionObject.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCollisionObject.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btCollisionWorld.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCollisionWorld.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btCompoundCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCompoundCollisionAlgorithm.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btCompoundCompoundCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCompoundCompoundCollisionAlgorithm.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btConvexConcaveCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConvexConcaveCollisionAlgorithm.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btConvexConvexAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConvexConvexAlgorithm.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btConvexPlaneCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConvexPlaneCollisionAlgorithm.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btDefaultCollisionConfiguration.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btDefaultCollisionConfiguration.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btEmptyCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btEmptyCollisionAlgorithm.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btGhostObject.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btGhostObject.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btHashedSimplePairCache.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btHashedSimplePairCache.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btManifoldResult.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btManifoldResult.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btSimulationIslandManager.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btSimulationIslandManager.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btSphereSphereCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btSphereSphereCollisionAlgorithm.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btSphereTriangleCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btSphereTriangleCollisionAlgorithm.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btUnionFind.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btUnionFind.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(SphereTriangleDetector.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(SphereTriangleDetector.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btBoxShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btBoxShape.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btBvhTriangleMeshShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btBvhTriangleMeshShape.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btCapsuleShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCapsuleShape.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btCollisionShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCollisionShape.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btCompoundShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCompoundShape.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btConcaveShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConcaveShape.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btConvexHullShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConvexHullShape.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btConvexInternalShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConvexInternalShape.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btConvexPolyhedron.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConvexPolyhedron.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btConvexShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConvexShape.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btCylinderShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCylinderShape.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btHeightfieldTerrainShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btHeightfieldTerrainShape.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btOptimizedBvh.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btOptimizedBvh.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btPolyhedralConvexShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btPolyhedralConvexShape.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btSphereShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btSphereShape.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btStridingMeshInterface.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btStridingMeshInterface.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btTriangleCallback.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btTriangleCallback.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btTriangleIndexVertexArray.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btTriangleIndexVertexArray.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btTriangleMesh.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btTriangleMesh.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btTriangleMeshShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btTriangleMeshShape.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btContinuousConvexCollision.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btContinuousConvexCollision.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btConvexCast.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConvexCast.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btGjkConvexCast.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btGjkConvexCast.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btGjkEpa2.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btGjkEpa2.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btGjkEpaPenetrationDepthSolver.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btGjkEpaPenetrationDepthSolver.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btGjkPairDetector.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btGjkPairDetector.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btMinkowskiPenetrationDepthSolver.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btMinkowskiPenetrationDepthSolver.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btPersistentManifold.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btPersistentManifold.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btPolyhedralContactClipping.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btPolyhedralContactClipping.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btRaycastCallback.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btRaycastCallback.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btSubSimplexConvexCast.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btSubSimplexConvexCast.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btVoronoiSimplexSolver.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btVoronoiSimplexSolver.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btConeTwistConstraint.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConeTwistConstraint.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btGeneric6DofConstraint.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btGeneric6DofConstraint.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btHingeConstraint.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btHingeConstraint.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btPoint2PointConstraint.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btPoint2PointConstraint.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btSequentialImpulseConstraintSolver.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btSequentialImpulseConstraintSolver.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btSliderConstraint.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btSliderConstraint.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btTypedConstraint.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btTypedConstraint.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btDiscreteDynamicsWorld.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btDiscreteDynamicsWorld.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btRigidBody.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btRigidBody.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btAlignedAllocator.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btAlignedAllocator.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btConvexHullComputer.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConvexHullComputer.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btGeometryUtil.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btGeometryUtil.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btQuickprof.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btQuickprof.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btVector3.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btVector3.obj)”或在“D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-  libcocos2d.vcxproj -> D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libcocos2d.dll
+libtiff.lib(tif_aux.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_aux.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_close.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_close.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_codec.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_codec.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_color.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_color.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_compress.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_compress.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_dir.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_dir.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_dirinfo.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_dirinfo.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_dirread.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_dirread.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_dirwrite.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_dirwrite.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_dumpmode.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_dumpmode.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_error.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_error.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_fax3.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_fax3.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_fax3sm.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_fax3sm.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_getimage.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_getimage.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_flush.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_flush.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_luv.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_luv.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_lzw.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_lzw.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_next.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_next.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_open.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_open.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_packbits.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_packbits.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_predict.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_predict.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_read.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_read.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_swab.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_swab.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_strip.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_strip.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_thunder.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_thunder.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_tile.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_tile.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_warning.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_warning.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_write.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_write.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libtiff.lib(tif_win32.obj) : warning LNK4099: 未找到 PDB“vc140.pdb”(使用“libtiff.lib(tif_win32.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\vc140.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(chipmunk.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(chipmunk.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpArbiter.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpArbiter.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpArray.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpArray.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpBBTree.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpBBTree.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpBody.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpBody.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpCollision.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpCollision.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpConstraint.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpConstraint.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpDampedRotarySpring.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpDampedRotarySpring.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpDampedSpring.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpDampedSpring.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpGearJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpGearJoint.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpGrooveJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpGrooveJoint.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpHashSet.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpHashSet.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpPinJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpPinJoint.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpPivotJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpPivotJoint.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpPolyShape.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpPolyShape.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpRatchetJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpRatchetJoint.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpRobust.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpRobust.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpRotaryLimitJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpRotaryLimitJoint.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpShape.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpShape.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpSimpleMotor.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpSimpleMotor.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpSlideJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpSlideJoint.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpSpace.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpSpace.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpSpaceComponent.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpSpaceComponent.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpSpaceDebug.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpSpaceDebug.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpSpaceHash.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpSpaceHash.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpSpaceQuery.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpSpaceQuery.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpSpaceStep.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpSpaceStep.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpSpatialIndex.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpSpatialIndex.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCollisionAlgorithm.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btDbvt.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btDbvt.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btDbvtBroadphase.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btDbvtBroadphase.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btDispatcher.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btDispatcher.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btOverlappingPairCache.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btOverlappingPairCache.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btQuantizedBvh.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btQuantizedBvh.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btActivatingCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btActivatingCollisionAlgorithm.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btBoxBoxCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btBoxBoxCollisionAlgorithm.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btBoxBoxDetector.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btBoxBoxDetector.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btCollisionDispatcher.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCollisionDispatcher.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btCollisionObject.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCollisionObject.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btCollisionWorld.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCollisionWorld.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btCompoundCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCompoundCollisionAlgorithm.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btCompoundCompoundCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCompoundCompoundCollisionAlgorithm.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btConvexConcaveCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConvexConcaveCollisionAlgorithm.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btConvexConvexAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConvexConvexAlgorithm.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btConvexPlaneCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConvexPlaneCollisionAlgorithm.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btDefaultCollisionConfiguration.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btDefaultCollisionConfiguration.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btEmptyCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btEmptyCollisionAlgorithm.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btGhostObject.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btGhostObject.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btHashedSimplePairCache.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btHashedSimplePairCache.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btManifoldResult.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btManifoldResult.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btSimulationIslandManager.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btSimulationIslandManager.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btSphereSphereCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btSphereSphereCollisionAlgorithm.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btSphereTriangleCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btSphereTriangleCollisionAlgorithm.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btUnionFind.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btUnionFind.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(SphereTriangleDetector.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(SphereTriangleDetector.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btBoxShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btBoxShape.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btBvhTriangleMeshShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btBvhTriangleMeshShape.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btCapsuleShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCapsuleShape.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btCollisionShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCollisionShape.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btCompoundShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCompoundShape.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btConcaveShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConcaveShape.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btConvexHullShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConvexHullShape.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btConvexInternalShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConvexInternalShape.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btConvexPolyhedron.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConvexPolyhedron.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btConvexShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConvexShape.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btCylinderShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCylinderShape.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btHeightfieldTerrainShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btHeightfieldTerrainShape.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btOptimizedBvh.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btOptimizedBvh.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btPolyhedralConvexShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btPolyhedralConvexShape.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btSphereShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btSphereShape.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btStridingMeshInterface.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btStridingMeshInterface.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btTriangleCallback.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btTriangleCallback.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btTriangleIndexVertexArray.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btTriangleIndexVertexArray.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btTriangleMesh.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btTriangleMesh.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btTriangleMeshShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btTriangleMeshShape.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btContinuousConvexCollision.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btContinuousConvexCollision.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btConvexCast.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConvexCast.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btGjkConvexCast.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btGjkConvexCast.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btGjkEpa2.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btGjkEpa2.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btGjkEpaPenetrationDepthSolver.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btGjkEpaPenetrationDepthSolver.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btGjkPairDetector.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btGjkPairDetector.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btMinkowskiPenetrationDepthSolver.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btMinkowskiPenetrationDepthSolver.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btPersistentManifold.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btPersistentManifold.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btPolyhedralContactClipping.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btPolyhedralContactClipping.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btRaycastCallback.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btRaycastCallback.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btSubSimplexConvexCast.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btSubSimplexConvexCast.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btVoronoiSimplexSolver.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btVoronoiSimplexSolver.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btConeTwistConstraint.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConeTwistConstraint.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btGeneric6DofConstraint.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btGeneric6DofConstraint.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btHingeConstraint.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btHingeConstraint.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btPoint2PointConstraint.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btPoint2PointConstraint.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btSequentialImpulseConstraintSolver.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btSequentialImpulseConstraintSolver.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btSliderConstraint.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btSliderConstraint.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btTypedConstraint.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btTypedConstraint.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btDiscreteDynamicsWorld.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btDiscreteDynamicsWorld.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btRigidBody.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btRigidBody.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btAlignedAllocator.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btAlignedAllocator.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btConvexHullComputer.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConvexHullComputer.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btGeometryUtil.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btGeometryUtil.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btQuickprof.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btQuickprof.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btVector3.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btVector3.obj)”或在“D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  libcocos2d.vcxproj -> D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libcocos2d.dll

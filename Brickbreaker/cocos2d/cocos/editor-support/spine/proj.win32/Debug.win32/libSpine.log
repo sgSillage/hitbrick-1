@@ -35,14 +35,14 @@
   TransformConstraint.c
   TransformConstraintData.c
   Triangulator.c
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\spine\skeletonjson.c(97): warning C4018: “>=”: 有符号/无符号不匹配
   VertexAttachment.c
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\spine\skeletonbinary.c(310): warning C4018: “<”: 有符号/无符号不匹配
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\spine\skeletonbinary.c(372): warning C4018: “<”: 有符号/无符号不匹配
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\spine\skeletonbinary.c(484): warning C4018: “<”: 有符号/无符号不匹配
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\spine\skeletonbinary.c(649): warning C4018: “<”: 有符号/无符号不匹配
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\spine\skeletonbinary.c(652): warning C4018: “<”: 有符号/无符号不匹配
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\spine\skeletonjson.c(97): warning C4018: “>=”: 有符号/无符号不匹配
   VertexEffect.c
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\spine\skeletonbinary.c(310): warning C4018: “<”: 有符号/无符号不匹配
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\spine\skeletonbinary.c(372): warning C4018: “<”: 有符号/无符号不匹配
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\spine\skeletonbinary.c(484): warning C4018: “<”: 有符号/无符号不匹配
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\spine\skeletonbinary.c(649): warning C4018: “<”: 有符号/无符号不匹配
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\spine\skeletonbinary.c(652): warning C4018: “<”: 有符号/无符号不匹配
   AttachmentVertices.cpp
   Cocos2dAttachmentLoader.cpp
   SkeletonAnimation.cpp
@@ -50,7 +50,7 @@ d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\spine\skele
   SkeletonRenderer.cpp
   SkeletonTwoColorBatch.cpp
   spine-cocos2dx.cpp
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\spine\skeletonbatch.cpp(110): warning C4018: “<”: 有符号/无符号不匹配
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\spine\skeletontwocolorbatch.cpp(237): warning C4018: “<”: 有符号/无符号不匹配
-d:\cocos2d-x-3.17.1\lololo\brickbreaker\cocos2d\cocos\editor-support\spine\skeletontwocolorbatch.cpp(274): warning C4018: “<”: 有符号/无符号不匹配
-  libSpine.vcxproj -> D:\cocos2d-x-3.17.1\lololo\Brickbreaker\proj.win32\Debug.win32\libSpine.lib
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\spine\skeletonbatch.cpp(110): warning C4018: “<”: 有符号/无符号不匹配
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\spine\skeletontwocolorbatch.cpp(237): warning C4018: “<”: 有符号/无符号不匹配
+d:\hitbrick-1\brickbreaker\cocos2d\cocos\editor-support\spine\skeletontwocolorbatch.cpp(274): warning C4018: “<”: 有符号/无符号不匹配
+  libSpine.vcxproj -> D:\hitbrick-1\Brickbreaker\proj.win32\Debug.win32\libSpine.lib
