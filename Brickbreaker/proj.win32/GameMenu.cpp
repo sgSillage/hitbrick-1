@@ -34,6 +34,37 @@ bool GameMenu::init()
 	background->setScale(VisibleSize.width / background->getContentSize().width, VisibleSize.height / background->getContentSize().height);
 	this->addChild(background);
 
+	//动画
+	auto hero1 = Sprite::create("10001.png");
+	hero1->setPosition(Vec2(VisibleSize.width*0.20, VisibleSize.height*0.5));
+	hero1->setScale(0.3, 0.3);
+	this->addChild(hero1);
+	auto animation1 = Animation::create();
+
+	for (int i = 1; i < 6; i++) {
+		animation1->addSpriteFrameWithFile(StringUtils::format("1000%d.png", i));
+	}
+	animation1->setDelayPerUnit(3.0 / 5.0);
+	animation1->setRestoreOriginalFrame(true);
+	auto animate1 = Animate::create(animation1);
+	auto repeat1 = RepeatForever::create(animate1);
+	hero1->runAction(repeat1);
+
+	auto hero2 = Sprite::create("10001.png");
+	hero2->setPosition(Vec2(VisibleSize.width*0.8, VisibleSize.height*0.5));
+	hero2->setScale(0.3, 0.3);
+	this->addChild(hero2);
+	auto animation2 = Animation::create();
+
+	for (int i = 1; i < 6; i++) {
+		animation2->addSpriteFrameWithFile(StringUtils::format("1000%d.png", i));
+	}
+	animation2->setDelayPerUnit(3.0 / 5.0);
+	animation2->setRestoreOriginalFrame(true);
+	auto animate2 = Animate::create(animation2);
+	auto repeat2 = RepeatForever::create(animate2);
+	hero2->runAction(repeat2);
+
 	//开始游戏按钮
 	auto  start_btn = Sprite::create("btn.png");
 	start_btn->setPosition(Vec2(VisibleSize.width / 2, VisibleSize.height*0.7));
